@@ -1,0 +1,11 @@
+.imageButton {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.figureContainer {
+  display: flex;
+  flex-direction: column;
+}

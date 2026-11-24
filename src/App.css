@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(88, 39, 7);
+  margin: 0;
+}
+
+/* general site containers for header and footer spacing*/
+.siteContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+  background-color: rgb(217, 178, 111);
+}

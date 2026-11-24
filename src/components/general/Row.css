@@ -1,0 +1,20 @@
+.rowContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.gridRowContainer {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+/* laptop rules */
+@media (min-width: 1250px) {
+  .rowContainer {
+    flex-direction: row;
+  }
+}

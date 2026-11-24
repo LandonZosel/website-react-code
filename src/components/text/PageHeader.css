@@ -1,0 +1,27 @@
+.pageHeaderContainer {
+  display: flex;
+  justify-content: start;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+  margin-left: 2em;
+}
+
+.centerHeader {
+  justify-content: center;
+  margin-left: 0;
+}
+
+.loading::after {
+  content: "";
+  animation: dots 1.5s steps(1, end) infinite;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+}
+
+@keyframes dots {
+  0%   { content: ""; }
+  25%  { content: "."; }
+  50%  { content: ".."; }
+  75%  { content: "..."; }
+  100% { content: ""; }
+}
